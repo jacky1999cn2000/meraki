@@ -44,6 +44,4 @@
 		<apex:actionFunction action="{!userClick}" name="userClick" reRender="overview">
 		</apex:actionFunction>
 	</apex:form>
-
-	<script src="https://2d59a5f5.ngrok.io/js/script.js" type="text/javascript"/>
 </apex:page>

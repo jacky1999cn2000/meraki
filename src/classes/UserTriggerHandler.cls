@@ -2,7 +2,7 @@ public class UserTriggerHandler {
 
 	/*
     * @description: delete corresponding UserClickTracker__c records for deactivated users
-    * @param: newList (Trigger.new) and oldMap (Trigger.newMap) 
+    * @param: newList (Trigger.new) and oldMap (Trigger.newMap)
     * @return: none
   */
 	public static void handlerTrigger(List<User> newList, Map<Id, User> oldMap){

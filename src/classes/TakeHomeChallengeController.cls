@@ -9,7 +9,7 @@ public with sharing class TakeHomeChallengeController {
 		get{
 			if(setCon == null){
 				size = 5;
-				String queryString = 'SELECT Id, Name, Clicked_By__c, Clicked_By__r.Name, TimeStamp__c FROM UserClickTracker__c ORDER BY CreatedDate DESC';
+				String queryString = 'SELECT Id, Name, Clicked_By__c, Clicked_By__r.Name, TimeStamp__c FROM UserClickTracker__c ORDER BY TimeStamp__c DESC';
 				setCon = new ApexPages.StandardSetController(Database.getQueryLocator(queryString));
 				setCon.setPageSize(size);
 				noOfRecords = setCon.getResultSize();

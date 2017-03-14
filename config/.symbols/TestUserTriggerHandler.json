@@ -1,0 +1,242 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p460000029HVfAAM",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p460000029HVfAAM",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 8
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "handler_test",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "TestUserTriggerHandler",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 15,
+            "line": 2
+        },
+        "modifiers": [
+            "private",
+            "testMethod"
+        ],
+        "name": "TestUserTriggerHandler",
+        "references": [],
+        "type": "TestUserTriggerHandler"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 9
+            },
+            "modifiers": [],
+            "name": "adminProfile",
+            "references": [],
+            "type": "Profile"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 10
+            },
+            "modifiers": [],
+            "name": "stdUserProfile",
+            "references": [],
+            "type": "Profile"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 8,
+                "line": 13
+            },
+            "modifiers": [],
+            "name": "adminUser",
+            "references": [],
+            "type": "User"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 17
+            },
+            "modifiers": [],
+            "name": "stdUserList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 18
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 24
+            },
+            "modifiers": [],
+            "name": "ps",
+            "references": [],
+            "type": "PermissionSet"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 25
+            },
+            "modifiers": [],
+            "name": "psaList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 27
+            },
+            "modifiers": [],
+            "name": "stdUser",
+            "references": [],
+            "type": "User"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 33
+            },
+            "modifiers": [],
+            "name": "stdUser",
+            "references": [],
+            "type": "User"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 35
+            },
+            "modifiers": [],
+            "name": "pageRef",
+            "references": [],
+            "type": "PageReference"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 37
+            },
+            "modifiers": [],
+            "name": "controller",
+            "references": [],
+            "type": "TakeHomeChallengeController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 42
+            },
+            "modifiers": [],
+            "name": "uctList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 47
+            },
+            "modifiers": [],
+            "name": "pageRef",
+            "references": [],
+            "type": "PageReference"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 49
+            },
+            "modifiers": [],
+            "name": "controller",
+            "references": [],
+            "type": "TakeHomeChallengeController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 66
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 76
+            },
+            "modifiers": [],
+            "name": "pageRef",
+            "references": [],
+            "type": "PageReference"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 78
+            },
+            "modifiers": [],
+            "name": "controller",
+            "references": [],
+            "type": "TakeHomeChallengeController"
+        }
+    ]
+}
