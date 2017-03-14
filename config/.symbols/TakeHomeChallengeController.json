@@ -1,0 +1,166 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p460000028xvtAAA",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p460000028xvtAAA",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 26
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getUserClickTrackers",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 39
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "userClick",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        }
+    ],
+    "name": "TakeHomeChallengeController",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 4
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "noOfRecords",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 5
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "size",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 8
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "setCon",
+            "references": [],
+            "type": "StandardSetController"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "TakeHomeChallengeController",
+        "references": [],
+        "type": "TakeHomeChallengeController"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 12
+            },
+            "modifiers": [],
+            "name": "queryString",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 27
+            },
+            "modifiers": [],
+            "name": "uctList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 29
+            },
+            "modifiers": [],
+            "name": "uct",
+            "references": [],
+            "type": "UserClickTracker__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 41
+            },
+            "modifiers": [],
+            "name": "dateTimeNow",
+            "references": [],
+            "type": "Datetime"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 42
+            },
+            "modifiers": [],
+            "name": "unixTime",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 44
+            },
+            "modifiers": [],
+            "name": "uct",
+            "references": [],
+            "type": "UserClickTracker__c"
+        }
+    ]
+}

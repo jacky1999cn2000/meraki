@@ -1,0 +1,134 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p460000028y78AAA",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p460000028y78AAA",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 8
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "handlerTrigger",
+            "parameters": [
+                {
+                    "name": "newList",
+                    "type": "LIST"
+                },
+                {
+                    "name": "oldMap",
+                    "type": "Map"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "Future"
+                }
+            ],
+            "location": {
+                "column": 21,
+                "line": 29
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "deleteUCTrecords",
+            "parameters": [
+                {
+                    "name": "deactivatedUserIdSet",
+                    "type": "Set"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "UserTriggerHandler",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "UserTriggerHandler",
+        "references": [],
+        "type": "UserTriggerHandler"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 8
+            },
+            "modifiers": [],
+            "name": "newList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 70,
+                "line": 8
+            },
+            "modifiers": [],
+            "name": "oldMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 10
+            },
+            "modifiers": [],
+            "name": "deactivatedUserIdSet",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 13
+            },
+            "modifiers": [],
+            "name": "u",
+            "references": [],
+            "type": "User"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 29
+            },
+            "modifiers": [],
+            "name": "deactivatedUserIdSet",
+            "references": [],
+            "type": "Set"
+        }
+    ]
+}

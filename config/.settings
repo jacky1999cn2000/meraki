@@ -1,0 +1,16 @@
+{
+    "projectName": "meraki",
+    "username": "jz.meraki.takehome.test@jz.com",
+    "id": "27803610-0871-11e7-bb07-87b2d26ca737",
+    "namespace": "",
+    "environment": "developer",
+    "loginUrl": "https://login.salesforce.com/",
+    "workspace": "/Users/jacky.zhao/documents/salesforce",
+    "subscription": [
+        "ApexClass",
+        "ApexComponent",
+        "ApexPage",
+        "ApexTrigger",
+        "StaticResource"
+    ]
+}

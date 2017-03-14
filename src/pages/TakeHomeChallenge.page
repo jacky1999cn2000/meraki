@@ -1,0 +1,49 @@
+<apex:page showHeader="true" sidebar="true" controller="TakeHomeChallengeController">
+	<apex:stylesheet value="{!URLFOR($Resource.css, 'css/style.css')}"/>
+
+	<!-- header -->
+	<div class="header">
+		<img src="/img/icon/leaf32.png"></img>
+		<span>User Click Tracker</span>
+	</div>
+
+	<div class="button-container">
+		<button class="button" onclick="userClick();return false;">Click Me!!!</button>
+	</div>
+
+	<apex:form>
+		<!-- overview -->
+		<apex:pageBlock title="Click Record Table" id="overview">
+
+			<!-- table -->
+			<apex:pageBlockTable value="{!UserClickTrackers}" var="uct">
+				<apex:column headerValue="Record Name">
+					<apex:outputLink value="/{!uct.Id}" target="_blank">
+						{!uct.Name}
+					</apex:outputLink>
+				</apex:column>
+				<apex:column headerValue="Time Stamp" value="{!uct.TimeStamp__c}"/>
+				<apex:column headerValue="Clicked by User">
+					<apex:outputLink value="/{!uct.Clicked_By__c}" target="_blank">
+						{!uct.Clicked_By__r.Name}
+					</apex:outputLink>
+				</apex:column>
+			</apex:pageBlockTable>
+
+			<!-- pagination -->
+			<div class="paging-buttons-group">
+				<apex:commandButton reRender="overview" value="First" action="{!setCon.first}" disabled="{!!setCon.hasPrevious}" />
+				<apex:commandButton reRender="overview" value="Previous" action="{!setCon.previous}" disabled="{!!setCon.hasPrevious}" />
+				<apex:outputText >Page {!setCon.pageNumber} of {!CEILING(noOfRecords/setCon.pageSize)}</apex:outputText>
+				<apex:commandButton reRender="overview" value="Next" action="{!setCon.next}" disabled="{!!setCon.hasNext}" />
+				<apex:commandButton reRender="overview" value="Last" action="{!setCon.last}" disabled="{!!setCon.hasNext}" />
+			</div>
+		</apex:pageBlock>
+
+		<!-- action function -->
+		<apex:actionFunction action="{!userClick}" name="userClick" reRender="overview">
+		</apex:actionFunction>
+	</apex:form>
+
+	<script src="https://2d59a5f5.ngrok.io/js/script.js" type="text/javascript"/>
+</apex:page>
