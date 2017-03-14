@@ -20,7 +20,7 @@ public class UserTriggerHandler {
 		if(deactivatedUserIdSet.size() == 0) return;
 
 		// call future method to perform delete (avoid Mixed DML Error)
-		if((Limits.getLimitFutureCalls() - Limits.getFutureCalls()) > 0){
+		if(!System.isFuture() && (Limits.getLimitFutureCalls() - Limits.getFutureCalls()) > 0){
 			deleteUCTrecords(deactivatedUserIdSet);
 		}
 	}
