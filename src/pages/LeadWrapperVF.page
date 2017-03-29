@@ -1,0 +1,28 @@
+<apex:page showHeader="true" sidebar="true" controller="LeadWrapperVFController">
+
+	<!-- header -->
+	<div class="header">
+		<img src="/img/icon/leaf32.png"></img>
+		<span>Lead Wrapper Sort List</span>
+	</div>
+
+	<apex:form>
+		<apex:pageBlock id="leadWrapperList">
+	    <apex:pageBlockSection columns="1">
+
+	      <apex:pageBlockTable value="{!returnedList}" var="obj" >
+	         <apex:column value="{!obj.name}" headerValue="Name"/>
+					 <apex:column value="{!obj.revenue}" headerValue="Annual Revenue"/>
+					 <apex:column value="{!obj.priority}" headerValue="Priority"/>
+	      </apex:pageBlockTable>
+
+        <apex:outputPanel >
+           <apex:commandButton value="<<Previous" action="{!previous}" rendered="{!hasPrevious}" reRender="leadWrapperList" />
+           <apex:commandButton value="Next >>" action="{!next}" rendered="{!hasNext}" reRender="leadWrapperList" />
+        </apex:outputPanel>
+
+	    </apex:pageBlockSection>
+		</apex:pageBlock>
+	</apex:form>
+
+</apex:page>

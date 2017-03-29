@@ -4,7 +4,7 @@
             "annotations": [],
             "location": {
                 "column": 9,
-                "line": 6
+                "line": 12
             },
             "modifiers": [
                 "public"
@@ -32,7 +32,7 @@
             "annotations": [],
             "location": {
                 "column": 17,
-                "line": 12
+                "line": 19
             },
             "modifiers": [
                 "public"
@@ -52,19 +52,19 @@
             "annotations": [],
             "location": {
                 "column": 18,
-                "line": 30
+                "line": 39
             },
             "modifiers": [
                 "private"
             ],
-            "name": "compareDescription",
+            "name": "comparePriority",
             "parameters": [
                 {
-                    "name": "desc1",
+                    "name": "priority1",
                     "type": "String"
                 },
                 {
-                    "name": "desc2",
+                    "name": "priority2",
                     "type": "String"
                 }
             ],
@@ -76,7 +76,7 @@
             "annotations": [],
             "location": {
                 "column": 18,
-                "line": 39
+                "line": 49
             },
             "modifiers": [
                 "private"
@@ -100,7 +100,7 @@
             "annotations": [],
             "location": {
                 "column": 18,
-                "line": 45
+                "line": 56
             },
             "modifiers": [
                 "private"
@@ -129,7 +129,7 @@
             "annotations": [],
             "location": {
                 "column": 16,
-                "line": 2
+                "line": 8
             },
             "modifiers": [
                 "public"
@@ -142,7 +142,7 @@
             "annotations": [],
             "location": {
                 "column": 16,
-                "line": 3
+                "line": 9
             },
             "modifiers": [
                 "public"
@@ -155,12 +155,12 @@
             "annotations": [],
             "location": {
                 "column": 16,
-                "line": 4
+                "line": 10
             },
             "modifiers": [
                 "public"
             ],
-            "name": "description",
+            "name": "priority",
             "references": [],
             "type": "String"
         }
@@ -172,7 +172,7 @@
             "line": 1
         },
         "modifiers": [
-            "public"
+            "global"
         ],
         "name": "LeadWrapper",
         "references": [],
@@ -183,7 +183,7 @@
             "annotations": [],
             "location": {
                 "column": 26,
-                "line": 6
+                "line": 12
             },
             "modifiers": [],
             "name": "l",
@@ -194,7 +194,7 @@
             "annotations": [],
             "location": {
                 "column": 34,
-                "line": 12
+                "line": 19
             },
             "modifiers": [],
             "name": "compareTo",
@@ -205,7 +205,7 @@
             "annotations": [],
             "location": {
                 "column": 15,
-                "line": 13
+                "line": 21
             },
             "modifiers": [],
             "name": "compareToObj",
@@ -215,22 +215,22 @@
         {
             "annotations": [],
             "location": {
-                "column": 44,
-                "line": 30
+                "column": 41,
+                "line": 39
             },
             "modifiers": [],
-            "name": "desc1",
+            "name": "priority1",
             "references": [],
             "type": "String"
         },
         {
             "annotations": [],
             "location": {
-                "column": 58,
-                "line": 30
+                "column": 59,
+                "line": 39
             },
             "modifiers": [],
-            "name": "desc2",
+            "name": "priority2",
             "references": [],
             "type": "String"
         },
@@ -238,7 +238,7 @@
             "annotations": [],
             "location": {
                 "column": 11,
-                "line": 31
+                "line": 40
             },
             "modifiers": [],
             "name": "rank1",
@@ -249,7 +249,7 @@
             "annotations": [],
             "location": {
                 "column": 11,
-                "line": 32
+                "line": 41
             },
             "modifiers": [],
             "name": "rank2",
@@ -260,7 +260,7 @@
             "annotations": [],
             "location": {
                 "column": 40,
-                "line": 39
+                "line": 49
             },
             "modifiers": [],
             "name": "rev1",
@@ -271,7 +271,7 @@
             "annotations": [],
             "location": {
                 "column": 53,
-                "line": 39
+                "line": 49
             },
             "modifiers": [],
             "name": "rev2",
@@ -282,7 +282,7 @@
             "annotations": [],
             "location": {
                 "column": 37,
-                "line": 45
+                "line": 56
             },
             "modifiers": [],
             "name": "name1",
@@ -293,7 +293,7 @@
             "annotations": [],
             "location": {
                 "column": 51,
-                "line": 45
+                "line": 56
             },
             "modifiers": [],
             "name": "name2",

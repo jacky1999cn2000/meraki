@@ -43,6 +43,45 @@
     * ![1.gif](/screenshots/1.gif)
     * ![2.gif](/screenshots/2.gif)
 
+* **Assignment Two**
+  * Requirements
+    * Sorting Leads based on `Name`, `AnnualRevenue` and `Priority__c`
+      * Priority__c - `High` > `Medium` > `Low`
+      * AnnualRevenue (Desc)
+      * Name (Desc)
+    * Display on VF page with pagination
+    * Use the following code in Developer Console to set Priority__c value and `AnnualRevenue` value
+      ```
+      List<String> priorityList = new List<String>{'High', 'Medium', 'Low'};
+      List<Lead> leadList = [SELECT Id, Priority__c, AnnualRevenue FROM Lead];
+
+      Integer counter = 0;
+      for(Lead l : leadList){
+          l.Priority__c = priorityList[counter];
+          l.AnnualRevenue = Math.mod(Math.round(Math.random()*10000), 9999);
+          counter++;
+          if(counter == 3){
+              counter = 0;
+          }
+      }
+
+      update leadList;
+      ```
+
+  * Solution
+    * Though the requirements can be achieved by using StandardSetController (use 3 queries to get `High`, `Medium` and `Low` priority Leads and sort them based on `AnnualRevenue` and `Name` respectively, merge these 3 list into one list with order, and initialize StandardSetController with this merged list of Leads), we chose to use Wrapper class instead, just because it can handle more complex sorting via Comparable interface;
+    * Classes
+      * LeadWrapper.cls
+      * LeadWrapperIterable.cls
+      * LeadWrapperVFController.cls
+    * Pages
+      * LeadWrapperVF.page
+    * Tabs
+      * LeadWrapperList
+    * Demo
+      * ![3.gif](/screenshots/3.gif)
+
 * **Notes**
   * [Add IP whitelist to Profile 1](https://developer.salesforce.com/forums/?id=906F0000000AhIUIA0)
   * [Add IP whitelist to Profile 2](https://help.salesforce.com/articleView?id=login_ip_ranges.htm&type=0&language=en_US)
+  * [Pagination with wrapper class](http://amitsalesforce.blogspot.com/2014/11/pagination-with-wrapper-class-with.html)
