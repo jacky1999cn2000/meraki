@@ -35,21 +35,21 @@ global class LeadWrapper implements Comparable {
     return -1;
   }
 
-  /* compare desicription */
+  /* compare desicription - since we need reverse sort on Priority__c, so switch the -1 and 1 */
   private Integer comparePriority(String priority1, String priority2){
-    Integer rank1 = priority1.toUpperCase().contains('HIGH') ? 3 : ( priority1.toUpperCase().contains('MEDIUM') ? 2 : 1 );
-    Integer rank2 = priority2.toUpperCase().contains('HIGH') ? 3 : ( priority2.toUpperCase().contains('MEDIUM') ? 2 : 1 );
+    Integer rank1 = priority1.toUpperCase().equals('HIGH') ? 3 : ( priority1.toUpperCase().equals('MEDIUM') ? 2 : 1 );
+    Integer rank2 = priority2.toUpperCase().equals('HIGH') ? 3 : ( priority2.toUpperCase().equals('MEDIUM') ? 2 : 1 );
 
     if(rank1 == rank2) return 0;
-    if(rank1 > rank2) return 1;
-    return -1;
+    if(rank1 > rank2) return -1;
+    return 1;
   }
 
-  /* compare revenue */
+  /* compare revenue - since we need reverse sort on AnnualRevenue, so switch the -1 and 1 */
   private Integer compareRevenue(Double rev1, Double rev2){
     if(rev1 == rev2) return 0;
-    if(rev1 > rev2) return 1;
-    return -1;
+    if(rev1 > rev2) return -1;
+    return 1;
   }
 
   /* compare name */

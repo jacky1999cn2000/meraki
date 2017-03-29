@@ -43,6 +43,8 @@ public with sharing class LeadWrapperVFController {
       leadWrapperList.add(new LeadWrapper(l));
     }
 
+    leadWrapperList.sort();
+
     leadWrapperIterable = new LeadWrapperIterable(leadWrapperList);
     next();
   }
