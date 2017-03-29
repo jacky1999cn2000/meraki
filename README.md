@@ -1,6 +1,6 @@
 # meraki
 
-* Assignment 1
+* **Assignment One**
   * Requirements
     * Add a VisualForce page, featuring a single button.
     * Record the timestamp of each user's click.
@@ -39,6 +39,10 @@
         deleteUCTrecords(deactivatedUserIdSet);
       }
       ```
+  * Demo
+    * ![1.gif](/screenshots/1.gif)
+    * ![2.gif](/screenshots/2.gif)
 
-* [Add IP whitelist to Profile 1](https://developer.salesforce.com/forums/?id=906F0000000AhIUIA0)
-* [Add IP whitelist to Profile 2](https://help.salesforce.com/articleView?id=login_ip_ranges.htm&type=0&language=en_US)
+* **Notes**
+  * [Add IP whitelist to Profile 1](https://developer.salesforce.com/forums/?id=906F0000000AhIUIA0)
+  * [Add IP whitelist to Profile 2](https://help.salesforce.com/articleView?id=login_ip_ranges.htm&type=0&language=en_US)
