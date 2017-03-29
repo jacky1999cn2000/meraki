@@ -110,5 +110,49 @@
         "manageableState": "unmanaged",
         "type": "ApexClass",
         "mmState": "clean"
+    },
+    "LeadWrapper.cls": {
+        "id": "01p46000002xy7cAAA",
+        "name": "LeadWrapper",
+        "createdDate": "2017-03-23T17:15:24.000+0000",
+        "createdById": "00546000000IkG0AAK",
+        "namespacePrefix": null,
+        "lastModifiedById": "00546000000IkG0AAK",
+        "lastModifiedDate": "2017-03-23T17:37:03.000+0000",
+        "fullName": "LeadWrapper",
+        "fileName": "unpackaged/classes/LeadWrapper.cls",
+        "createdByName": "Jacky Zhao",
+        "lastModifiedByName": "Jacky Zhao",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
+    },
+    "LeadWrapperVF.page": {
+        "createdById": "00546000000IkG0AAK",
+        "createdByName": "Jacky Zhao",
+        "createdDate": "2017-03-23T17:38:11.000Z",
+        "fileName": "unpackaged/pages/LeadWrapperVF.page",
+        "fullName": "LeadWrapperVF",
+        "id": "06646000001ByfjAAC",
+        "lastModifiedById": "00546000000IkG0AAK",
+        "lastModifiedByName": "Jacky Zhao",
+        "lastModifiedDate": "2017-03-23T17:38:11.000Z",
+        "manageableState": "unmanaged",
+        "type": "ApexPage",
+        "mmState": "clean"
+    },
+    "LeadWrapperController.cls": {
+        "createdById": "00546000000IkG0AAK",
+        "createdByName": "Jacky Zhao",
+        "createdDate": "2017-03-23T17:39:11.000Z",
+        "fileName": "unpackaged/classes/LeadWrapperController.cls",
+        "fullName": "LeadWrapperController",
+        "id": "01p46000002xyhBAAQ",
+        "lastModifiedById": "00546000000IkG0AAK",
+        "lastModifiedByName": "Jacky Zhao",
+        "lastModifiedDate": "2017-03-23T17:39:11.000Z",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
     }
 }

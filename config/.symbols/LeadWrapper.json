@@ -1,0 +1,304 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 9,
+                "line": 6
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "LeadWrapper",
+            "parameters": [
+                {
+                    "name": "l",
+                    "type": "Lead"
+                }
+            ],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p46000002xy7cAAA",
+    "innerClasses": [],
+    "interfaces": [
+        "System.Comparable"
+    ],
+    "key": "01p46000002xy7cAAA",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 12
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "compareTo",
+            "parameters": [
+                {
+                    "name": "compareTo",
+                    "type": "Object"
+                }
+            ],
+            "references": [],
+            "returnType": "Integer",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 30
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "compareDescription",
+            "parameters": [
+                {
+                    "name": "desc1",
+                    "type": "String"
+                },
+                {
+                    "name": "desc2",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "Integer",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 39
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "compareRevenue",
+            "parameters": [
+                {
+                    "name": "rev1",
+                    "type": "Double"
+                },
+                {
+                    "name": "rev2",
+                    "type": "Double"
+                }
+            ],
+            "references": [],
+            "returnType": "Integer",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 45
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "compareName",
+            "parameters": [
+                {
+                    "name": "name1",
+                    "type": "String"
+                },
+                {
+                    "name": "name2",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "Integer",
+            "type": null
+        }
+    ],
+    "name": "LeadWrapper",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 2
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "name",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 3
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "revenue",
+            "references": [],
+            "type": "Double"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 4
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "description",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "LeadWrapper",
+        "references": [],
+        "type": "LeadWrapper"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 6
+            },
+            "modifiers": [],
+            "name": "l",
+            "references": [],
+            "type": "Lead"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 12
+            },
+            "modifiers": [],
+            "name": "compareTo",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 13
+            },
+            "modifiers": [],
+            "name": "compareToObj",
+            "references": [],
+            "type": "LeadWrapper"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 30
+            },
+            "modifiers": [],
+            "name": "desc1",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 58,
+                "line": 30
+            },
+            "modifiers": [],
+            "name": "desc2",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 31
+            },
+            "modifiers": [],
+            "name": "rank1",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 32
+            },
+            "modifiers": [],
+            "name": "rank2",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 39
+            },
+            "modifiers": [],
+            "name": "rev1",
+            "references": [],
+            "type": "Double"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 53,
+                "line": 39
+            },
+            "modifiers": [],
+            "name": "rev2",
+            "references": [],
+            "type": "Double"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 45
+            },
+            "modifiers": [],
+            "name": "name1",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 51,
+                "line": 45
+            },
+            "modifiers": [],
+            "name": "name2",
+            "references": [],
+            "type": "String"
+        }
+    ]
+}
