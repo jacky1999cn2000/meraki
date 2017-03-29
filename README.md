@@ -85,3 +85,9 @@
   * [Add IP whitelist to Profile 1](https://developer.salesforce.com/forums/?id=906F0000000AhIUIA0)
   * [Add IP whitelist to Profile 2](https://help.salesforce.com/articleView?id=login_ip_ranges.htm&type=0&language=en_US)
   * [Pagination with wrapper class](http://amitsalesforce.blogspot.com/2014/11/pagination-with-wrapper-class-with.html)
+
+* **Atom Beautify**
+  * [install atom-beautify](https://atom.io/packages/atom-beautify)
+  * [install uncrustify](http://macappstore.org/uncrustify/)
+  * add `uncrustify.cfg` file in current folder
+  * in `atom-beautify` Setting, add `./uncrustify.cfg` to `Config Path`
